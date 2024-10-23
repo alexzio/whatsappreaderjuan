@@ -15,9 +15,9 @@ function FilterMessageDatesForm({
   return (
     <S.Form onSubmit={setMessagesByDate}>
       <S.Fieldset>
-        <legend>Messages date window</legend>
+        <legend>Ventana de fechas de mensajes</legend>
         <S.Field>
-          <S.Label htmlFor="start-date">Start</S.Label>
+          <S.Label htmlFor="start-date">Inicio</S.Label>
           <S.Input
             id="start-date"
             name="startDate"
@@ -28,7 +28,7 @@ function FilterMessageDatesForm({
           />
         </S.Field>
         <S.Field>
-          <S.Label htmlFor="end-date">End</S.Label>
+          <S.Label htmlFor="end-date">Fin</S.Label>
           <S.Input
             id="end-date"
             name="endDate"
@@ -41,8 +41,7 @@ function FilterMessageDatesForm({
         <S.Field>
           <S.Submit type="submit" value="Apply" />
           <S.InputDescription>
-            A high delta may freeze the page for a while, change this with
-            caution
+          Un delta alto puede causar latencia en la pagina, uselo con cautela.
           </S.InputDescription>
         </S.Field>
       </S.Fieldset>

@@ -53,10 +53,7 @@ function App() {
       <S.Container>
         <S.Header>
           <Dropzone onFileUpload={processFile} id="dropzone" />
-          <span>OR</span>
-          <a href={exampleChat} download>
-            Download example chat
-          </a>
+
         </S.Header>
         <MessageViewer />
         {messages.length > 0 && <Sidebar />}

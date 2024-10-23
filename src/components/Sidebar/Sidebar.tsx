@@ -78,7 +78,7 @@ function Sidebar() {
         onClick={() => setIsMenuOpen(true)}
         ref={openButtonRef}
       >
-        Open menu
+        Abrir menu
       </S.MenuOpenButton>
       <S.Overlay
         type="button"
@@ -92,7 +92,7 @@ function Sidebar() {
           onClick={() => setIsMenuOpen(false)}
           ref={closeButtonRef}
         >
-          Close menu
+          Cerrar menu
         </S.MenuCloseButton>
         <S.SidebarContainer>
           <S.SidebarChildren>
@@ -119,7 +119,7 @@ function Sidebar() {
             />
 
             <S.Field>
-              <S.Label htmlFor="is-anonymous">Anonymize users</S.Label>
+              <S.Label htmlFor="is-anonymous">Anonimizar usuarios</S.Label>
               <S.ToggleCheckbox
                 id="is-anonymous"
                 type="checkbox"

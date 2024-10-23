@@ -13,7 +13,7 @@ function FilterModeSelector({
 }: IFilterModeSelector) {
   return (
     <S.Fieldset>
-      <legend>Filter by</legend>
+      <legend>Filtro por</legend>
       {['index', 'date'].map(name => (
         <S.RadioField key={name}>
           <input

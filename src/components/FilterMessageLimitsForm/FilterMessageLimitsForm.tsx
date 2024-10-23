@@ -14,9 +14,9 @@ function FilterMessageLimitsForm({
   return (
     <S.Form onSubmit={setMessageLimits}>
       <S.Fieldset>
-        <legend>Messages limit</legend>
+        <legend>Limite de mensajes visualizados</legend>
         <S.Field>
-          <S.Label htmlFor="lower-limit">Start</S.Label>
+          <S.Label htmlFor="lower-limit">Inicio</S.Label>
           <S.Input
             id="lower-limit"
             name="lowerLimit"
@@ -26,7 +26,7 @@ function FilterMessageLimitsForm({
           />
         </S.Field>
         <S.Field>
-          <S.Label htmlFor="upper-limit">End</S.Label>
+          <S.Label htmlFor="upper-limit">Fin</S.Label>
           <S.Input
             id="upper-limit"
             name="upperLimit"
@@ -38,8 +38,7 @@ function FilterMessageLimitsForm({
         <S.Field>
           <S.Submit type="submit" value="Apply" />
           <S.InputDescription>
-            A high delta may freeze the page for a while, change this with
-            caution
+            Un delta alto puede causar latencia en la pagina, uselo con cautela.
           </S.InputDescription>
         </S.Field>
       </S.Fieldset>

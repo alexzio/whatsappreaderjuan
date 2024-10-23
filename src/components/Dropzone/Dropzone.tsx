@@ -61,7 +61,7 @@ function Dropzone({ id, onFileUpload }: IDropzone) {
       />
       <S.Label htmlFor={id} isHighlighted={isHighlighted}>
         <S.P>
-          Click here to upload a file or drag and drop it onto the dashed region
+          Haga click aqui para seleccionar el archivo o arrastrelo a la zona con lineas punteadas.
           (supported formats: <S.Extension>txt</S.Extension>,{' '}
           <S.Extension>zip</S.Extension>)
         </S.P>
